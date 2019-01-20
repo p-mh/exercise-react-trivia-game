@@ -1,32 +1,33 @@
 .App {
+  padding: 30px 0 0 0;
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
+  background-color: rgb(233, 233, 233);
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'Raleway', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.App h1 {
+  margin: 0;
+  text-transform: uppercase;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App h1.title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3em;
+  font-weight: 900;
+  color: #176886;
+}
+
+.App h1.subtitle {
+  font-family: 'Monofett', cursive;
+  font-size: 3.7em;
+  line-height: 0.5em;
+  font-weight: 400;
+  color: #fff06b;
+  letter-spacing: 0.08em;
+  text-shadow: 0px 0px 10px #747474;
+}
+
+.App .game-content {
+  padding: 30px;
 }
